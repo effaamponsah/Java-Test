@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ee8ae0f-99f2-47db-a623-733378aa6b0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/erbyn/dennis/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/erbyn/dennis/FaceValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/org/erbyn/dennis/TestDeck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cards.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cards.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Cards/org/erbyn/dennis/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cards/org/erbyn/dennis/Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/erbyn/dennis/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/erbyn/dennis/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cards/org/erbyn/dennis/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cards/org/erbyn/dennis/Deck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Cards/org/erbyn/dennis/TestDeck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Cards/org/erbyn/dennis/TestDeck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/erbyn/dennis/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/erbyn/dennis/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/org/erbyn/dennis/TestDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/org/erbyn/dennis/TestDeck.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +50,79 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestDeck.onDeckUpTo52">
+    <configuration name="TestDeck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.erbyn.dennis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.erbyn.dennis" />
+      <option name="MAIN_CLASS_NAME" value="org.erbyn.dennis.TestDeck" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDeck.canShuffle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.erbyn.dennis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.erbyn.dennis" />
+      <option name="MAIN_CLASS_NAME" value="org.erbyn.dennis.TestDeck" />
+      <option name="METHOD_NAME" value="canShuffle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDeck.containsHEARTS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.erbyn.dennis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.erbyn.dennis" />
+      <option name="MAIN_CLASS_NAME" value="org.erbyn.dennis.TestDeck" />
+      <option name="METHOD_NAME" value="containsHEARTS" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDeck.onDeckUpTo52" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.erbyn.dennis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.erbyn.dennis" />
+      <option name="MAIN_CLASS_NAME" value="org.erbyn.dennis.TestDeck" />
+      <option name="METHOD_NAME" value="onDeckUpTo52" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestDeck.onDeckUpTo52" />
+        <item itemvalue="JUnit.TestDeck.containsHEARTS" />
+        <item itemvalue="JUnit.TestDeck.canShuffle" />
+        <item itemvalue="JUnit.TestDeck" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />

@@ -5,18 +5,23 @@ import java.util.Collections;
 import java.util.List;
 
 public class Deck {
-    private  List<Card> myCards;
+    private static List<Card> myCards = new ArrayList<>();
 
-    public void setMyCards() {
-        myCards = new ArrayList<>();
+    public static void setMyCards() {
+//        myCards = new ArrayList<>();
         for (Suit s: Suit.values()){
             for (FaceValue f: FaceValue.values()){
-               final Card c = new Card(s,f);
+               Card c = new Card(s,f);
+               myCards.add(c);
             }
         }
     }
 
-    public void shuffle() {
+    public static void shuffle() {
         Collections.shuffle(myCards);
+    }
+
+    public static List<Card> getMyCards() {
+        return myCards;
     }
 }
