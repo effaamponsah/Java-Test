@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ee8ae0f-99f2-47db-a623-733378aa6b0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/db.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/turntabl/tcms/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/turntabl/tcms/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/io/turntabl/tcms/ClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Cards/org/erbyn/dennis/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cards/org/erbyn/dennis/Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Cards/org/erbyn/dennis/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cards/org/erbyn/dennis/Deck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Cards/org/erbyn/dennis/TestDeck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Cards/org/erbyn/dennis/TestDeck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/erbyn/dennis/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/erbyn/dennis/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/org/erbyn/dennis/TestDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/org/erbyn/dennis/TestDeck.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,6 +20,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -34,10 +35,24 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.turntabl.tcms" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dennis Effa Amponsah\Desktop\GLBC\Cards" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -51,49 +66,62 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDeck.onDeckUpTo52">
-    <configuration name="TestDeck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.turntabl.tcms.Main" />
       <module name="Cards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.erbyn.dennis.*" />
+          <option name="PATTERN" value="io.turntabl.tcms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.erbyn.dennis" />
-      <option name="MAIN_CLASS_NAME" value="org.erbyn.dennis.TestDeck" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.turntabl.tcms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.turntabl.tcms" />
+      <option name="MAIN_CLASS_NAME" value="io.turntabl.tcms.ClientTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDeck.canShuffle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientTest.testAllCLients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.erbyn.dennis.*" />
+          <option name="PATTERN" value="io.turntabl.tcms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.erbyn.dennis" />
-      <option name="MAIN_CLASS_NAME" value="org.erbyn.dennis.TestDeck" />
-      <option name="METHOD_NAME" value="canShuffle" />
+      <option name="PACKAGE_NAME" value="io.turntabl.tcms" />
+      <option name="MAIN_CLASS_NAME" value="io.turntabl.tcms.ClientTest" />
+      <option name="METHOD_NAME" value="testAllCLients" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDeck.containsHEARTS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientTest.testWriteToFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.erbyn.dennis.*" />
+          <option name="PATTERN" value="io.turntabl.tcms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.erbyn.dennis" />
-      <option name="MAIN_CLASS_NAME" value="org.erbyn.dennis.TestDeck" />
-      <option name="METHOD_NAME" value="containsHEARTS" />
+      <option name="PACKAGE_NAME" value="io.turntabl.tcms" />
+      <option name="MAIN_CLASS_NAME" value="io.turntabl.tcms.ClientTest" />
+      <option name="METHOD_NAME" value="testWriteToFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,10 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ClientTest.testWriteToFile" />
+        <item itemvalue="JUnit.ClientTest.testAllCLients" />
+        <item itemvalue="JUnit.ClientTest" />
         <item itemvalue="JUnit.TestDeck.onDeckUpTo52" />
-        <item itemvalue="JUnit.TestDeck.containsHEARTS" />
-        <item itemvalue="JUnit.TestDeck.canShuffle" />
-        <item itemvalue="JUnit.TestDeck" />
       </list>
     </recent_temporary>
   </component>

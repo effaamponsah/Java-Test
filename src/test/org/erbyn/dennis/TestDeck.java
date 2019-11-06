@@ -12,6 +12,4 @@ public class TestDeck {
             assertEquals("It should be 52", 16, Deck.getMyCards().size());
     }
 
-
-
 }
