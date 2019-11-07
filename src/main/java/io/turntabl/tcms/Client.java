@@ -11,11 +11,21 @@ public class Client {
     private String adddress;
 
 
-    public Client(String name, String phone, String email, String adddress) throws IOException {
+    public Client(String name, String phone, String email, String adddress)  {
         this.name = name;
         this.phone = phone;
         this.email = email;
         this.adddress = adddress;
+    }
+
+    @Override
+    public String toString() {
+        return "Client{" +
+                "name='" + name + '\'' +
+                ", phone='" + phone + '\'' +
+                ", email='" + email + '\'' +
+                ", adddress='" + adddress + '\'' +
+                '}';
     }
 
     public String getName() {

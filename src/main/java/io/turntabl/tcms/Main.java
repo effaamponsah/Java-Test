@@ -30,10 +30,10 @@ public class Main {
 //        private String email;
 //        private String adddress;
 
-        String userName = scanner.next();
-        String phone = scanner.next();
-        String email = scanner.next();
-        String address = scanner.next();
+        String userName = scanner.nextLine();
+        String phone = scanner.nextLine();
+        String email = scanner.nextLine();
+        String address = scanner.nextLine();
         Client newClient = new Client(userName,phone,email,address);
         newClient.writeToFile();
     }

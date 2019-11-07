@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ee8ae0f-99f2-47db-a623-733378aa6b0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/turntabl/tcms/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/turntabl/tcms/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/io/turntabl/tcms/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Cards/io/turntabl/tcms/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/Cards/io/turntabl/tcms/UtilsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/turntabl/tcms/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/io/turntabl/tcms/UtilsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/org/erbyn/dennis/TestDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/org/erbyn/dennis/TestDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.csv" beforeDir="false" afterPath="$PROJECT_DIR$/db.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cards/io/turntabl/tcms/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cards/io/turntabl/tcms/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cards/io/turntabl/tcms/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cards/io/turntabl/tcms/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/turntabl/tcms/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/turntabl/tcms/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/turntabl/tcms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/turntabl/tcms/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,21 +70,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.turntabl.tcms.Main" />
-      <module name="Cards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.turntabl.tcms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UtilsTest">
+    <configuration name="UtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cards" />
       <extension name="coverage">
         <pattern>
@@ -89,13 +80,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.turntabl.tcms" />
-      <option name="MAIN_CLASS_NAME" value="io.turntabl.tcms.ClientTest" />
+      <option name="MAIN_CLASS_NAME" value="io.turntabl.tcms.UtilsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientTest.testAllCLients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilsTest.testDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cards" />
       <extension name="coverage">
         <pattern>
@@ -104,14 +95,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.turntabl.tcms" />
-      <option name="MAIN_CLASS_NAME" value="io.turntabl.tcms.ClientTest" />
-      <option name="METHOD_NAME" value="testAllCLients" />
+      <option name="MAIN_CLASS_NAME" value="io.turntabl.tcms.UtilsTest" />
+      <option name="METHOD_NAME" value="testDistance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientTest.testWriteToFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilsTest.testDistance2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cards" />
       <extension name="coverage">
         <pattern>
@@ -120,24 +111,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.turntabl.tcms" />
-      <option name="MAIN_CLASS_NAME" value="io.turntabl.tcms.ClientTest" />
-      <option name="METHOD_NAME" value="testWriteToFile" />
+      <option name="MAIN_CLASS_NAME" value="io.turntabl.tcms.UtilsTest" />
+      <option name="METHOD_NAME" value="testDistance2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDeck.onDeckUpTo52" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilsTest.testMatchingStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.erbyn.dennis.*" />
+          <option name="PATTERN" value="io.turntabl.tcms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.erbyn.dennis" />
-      <option name="MAIN_CLASS_NAME" value="org.erbyn.dennis.TestDeck" />
-      <option name="METHOD_NAME" value="onDeckUpTo52" />
+      <option name="PACKAGE_NAME" value="io.turntabl.tcms" />
+      <option name="MAIN_CLASS_NAME" value="io.turntabl.tcms.UtilsTest" />
+      <option name="METHOD_NAME" value="testMatchingStrings" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilsTest.testReadingDataFromFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.turntabl.tcms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.turntabl.tcms" />
+      <option name="MAIN_CLASS_NAME" value="io.turntabl.tcms.UtilsTest" />
+      <option name="METHOD_NAME" value="testReadingDataFromFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ClientTest.testWriteToFile" />
-        <item itemvalue="JUnit.ClientTest.testAllCLients" />
-        <item itemvalue="JUnit.ClientTest" />
-        <item itemvalue="JUnit.TestDeck.onDeckUpTo52" />
+        <item itemvalue="JUnit.UtilsTest" />
+        <item itemvalue="JUnit.UtilsTest.testMatchingStrings" />
+        <item itemvalue="JUnit.UtilsTest.testReadingDataFromFile" />
+        <item itemvalue="JUnit.UtilsTest.testDistance2" />
+        <item itemvalue="JUnit.UtilsTest.testDistance" />
       </list>
     </recent_temporary>
   </component>
